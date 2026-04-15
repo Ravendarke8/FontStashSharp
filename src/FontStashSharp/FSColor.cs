@@ -172,6 +172,8 @@ namespace FontStashSharp
 		// A       B       G       R
 		private uint _packedValue;
 
+		public uint Value => _packedValue;
+
 		/// <summary>
 		/// Constructs an RGBA color from a packed value.
 		/// The value is a 32-bit unsigned integer, with R in the least significant octet.
